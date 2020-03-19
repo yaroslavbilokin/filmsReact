@@ -31,14 +31,14 @@ export default class MovieItem extends Component {
           <CardText className="d-flex justify-content-between align-items-center">
             <p className="mb-0">Rating: {movie.vote_average}</p>
             <Button
-              color="secondary"
+              color="outline-secondary"
               onClick={removeMovie.bind(this, movie)}
             >
               Delete movie
             </Button>
             {willWatch ? (
               <Button
-                color="danger"
+                color="outline-danger"
                 onClick={() => {
                   this.setState({
                     willWatch: false
@@ -50,7 +50,7 @@ export default class MovieItem extends Component {
               </Button>
             ) : (
               <Button
-                color= "success"
+                color= "outline-warning"
                 onClick={() => {
                   this.setState({
                     willWatch: true

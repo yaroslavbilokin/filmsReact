@@ -131,14 +131,14 @@ export default class App extends Component {
         <Row className="ml-0">
           <ButtonGroup className="mb-4">
             <Button
-              color="primary"
+              color="dark"
               outline
               onClick={this.moveToPrewPage}
             >
-              Prew
+              Prev
             </Button>
             <Button
-              color="primary"
+              color="dark"
               outline
               onClick={this.moveToNextPage}
             >

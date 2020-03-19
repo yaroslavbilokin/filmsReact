@@ -21,21 +21,21 @@ export default class MovieTabs extends Component {
       <Row className="ml-3">
         <ButtonGroup className="mb-4">
           <Button
-            color="primary"
+            color="dark"
             outline={getClassLink('popularity.desc')}
             onClick={handleClick('popularity.desc')}
           >
             Popularity desc
             </Button>
           <Button
-            color="primary"
+            color="dark"
             outline={getClassLink('revenue.desc')}
             onClick={handleClick('revenue.desc')}
           >
             Revenue desc
             </Button>
           <Button
-            color="primary"
+            color="dark"
             outline={getClassLink('vote_average.desc')}
             onClick={handleClick('vote_average.desc')}
           >
